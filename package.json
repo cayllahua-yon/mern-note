@@ -1,0 +1,28 @@
+{
+  "name": "mern-note",
+  "version": "1.0.0",
+  "description": "aplicación utilizando mern para control de notas,  permite añadir imagen en la nota.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/index.js",
+    "start": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^2.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "express-fileupload": "^1.5.0",
+    "fs-extra": "^11.2.0",
+    "http-errors": "^2.0.0",
+    "mongoose": "^8.2.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

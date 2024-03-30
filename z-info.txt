@@ -1,0 +1,33 @@
+Servidor
+    npm init -y
+    npm i express               // framework de nodejs
+    npm i express-fileupload    // plugins para subir archivo en este caso imagen
+    npm i mongoose              // permite conectarnos a mongobd
+    npm i dotenv                // variables de entorno en nuestra aplicacion
+    npm i fs-extra              // para manejar el archivo imagen al eliminar o renombrar
+    npm i http-errors           // para poder devolver los errores
+    npm i morgan                 // permite ver por consolo las peticiones que llegan
+        
+    npm i cloudinary           //vamos utilizar un servicio para guardar la imagen y utilizar la url para almacenar en bd 
+    
+    npm i nodemon -D            // reinicar el servidor por mi
+    npm i            // 
+    
+
+
+Cliente
+    npx create-react-app client
+
+
+Notas::
+usaremos en cliente:
+react hot toast 
+tailwind css
+React Router
+
+
+mongoDB
+servicios como S3
+joi   :: validacion
+expressValidator    :: validacion
+tycript  :: 
