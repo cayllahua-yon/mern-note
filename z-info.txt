@@ -17,10 +17,19 @@ Servidor
 
 Cliente
     npx create-react-app client
+    npm i react-router-dom
+    npm i react-hot-toast
+    npm i react-icons 
+    npm i axios 
+    npm i formik
+    npm i yup 
+    
+    npm install -D tailwindcss
 
 
 Notas::
 usaremos en cliente:
+react router dom v6
 react hot toast 
 tailwind css
 React Router
