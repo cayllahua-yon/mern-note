@@ -1,9 +1,10 @@
 import {v2 as cloudinary} from 'cloudinary';
+import {CLOUD_NAME, API_KEY, API_SECRET} from "../config.js"
 
 cloudinary.config({
-    cloud_name: "dohtwzyb0",
-    api_key: "577625872466897",
-    api_secret: "7bUPpbZ4E3ZL56QxiRP9AV_KbVY"
+    cloud_name: CLOUD_NAME,
+    api_key: API_KEY,
+    api_secret: API_SECRET
 })
 
 export const uploaderImage = async filePath => {
