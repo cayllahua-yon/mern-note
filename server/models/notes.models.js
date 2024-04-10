@@ -14,6 +14,9 @@ const noteSchema = new mongoose.Schema({
     image: {
         url: String,
         public_id: String
+    },
+    copyPublicId: {
+        type: String,
     }
 })
 
